@@ -1,4 +1,4 @@
-//Exercise 1
+//Exercise 2
 //Write a program that writes “I will not skip the fundamentals!” N times.
 
 var i = 1
