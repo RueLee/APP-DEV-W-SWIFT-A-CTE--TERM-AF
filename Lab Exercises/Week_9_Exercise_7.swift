@@ -18,8 +18,8 @@ for i in myStr {
 }
 
 if present {
-	print("The character \"\(chr)\" is found in \(myStr)")
+	print("The character \"\(chr)\" is found in \"\(myStr)\"")
 }
 else {
-	print("The character \"\(chr)\" is not found in \(myStr)")
+	print("The character \"\(chr)\" is not found in \"\(myStr)\"")
 }
