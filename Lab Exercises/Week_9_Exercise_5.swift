@@ -18,5 +18,5 @@ let start = 12
 let end = 120
 
 for i in start...end {
-	print(n)
+	print(i)
 }
