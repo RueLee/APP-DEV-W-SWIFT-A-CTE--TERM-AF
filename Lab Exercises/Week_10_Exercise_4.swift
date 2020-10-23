@@ -9,7 +9,7 @@ The factorial of a number is found by multiplying itself by all positive integer
 var num = 4
 var i = 4
 var factorial = 1
-while i > 1 {
+while i > 0 {
     factorial *= i
 	i -= 1
 }
