@@ -3,7 +3,7 @@
 
 var odd = 1
 
-while 1 <= 100 {
+while odd <= 100 {
     if odd % 2 == 1 {
         print(odd)
     }
