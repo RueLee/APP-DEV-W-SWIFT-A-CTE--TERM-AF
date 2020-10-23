@@ -4,6 +4,6 @@
 var num = 1
 
 while num <= 100 {
-    print("Hello Swift World!")
+    print("\(num). Hello Swift World!")
     num += 1
 }
