@@ -52,13 +52,13 @@ public class Vehicle {
 
 public class Bicycle:Vehicle {
 
-    var hasBasket:bool = false
+    var hasBasket = false
     override var description:String {
         return super.description
     }
     
     override func makeNoise() {
-        print("Click Click???????")
+        print("Ring Ring")
     }
     
 }
@@ -69,12 +69,23 @@ public class Train:Vehicle {
     }
 }
 
-let train = Train()
-train.makeNoise()
-
 public class Car:Vehicle {
     var gear:Int = 1
     override var description:String {
         return super.description + " in gear \(gear)"
     }
 }
+
+let someVehicle = Vehicle()
+print("Vehicle: \(someVehicle.description)")
+
+let bicycle = Bicycle()
+bicycle.hasBasket = true
+
+let train = Train()
+train.makeNoise()
+
+let car = Car()
+car.currentSpeed = 25.0
+car.gear = 3
+print("Car: \(car.description)")
