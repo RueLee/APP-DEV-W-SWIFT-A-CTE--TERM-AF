@@ -11,8 +11,8 @@ public class Person {
 }
 
 public class Employee:Person {
-    var salary:Double = 0.0
-    var role:String = ""
+    private var salary:Double = 0.0
+    private var role:String = ""
     
     init(_ name:String, _ salary:Double, _ role:String) {
         super.init(name)
